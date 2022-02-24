@@ -1,0 +1,30 @@
+body {
+	background-color:white;
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	/* place-items: center;
+	text-align: center; */
+  }
+  
+  .slider {
+	  margin-left: 100px;
+	  margin-right: auto;
+	  width: 100%;
+  }
+  .slick{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 100%;
+  }
+  .slick-slide img{
+	width: 100%;
+  }
+
+#react-root {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: darken(white, 20%);
+}

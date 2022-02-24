@@ -1,0 +1,38 @@
+Post http://localhost:9000/product/create
+Content-Type: application/json
+
+{
+"productID" : "20DLTSM01",
+"productName" : "Men Mauve Solid Round Neck T-shirt",
+"brandName" : "DILLINGER",
+"specialPrice" : 398,
+"MRP" : 699,
+"offer" : "43%",
+"bestPrice" : 398,
+"size" : ["M","L","XL","XXL"],
+"specs" : {
+    "fabric" : "Cotten",
+    "sleeve" : "Half Sleeves",
+    "fit" : "Regular Fit",
+    "occation" : "Casual",
+    "length" : "Regular",
+    "hemline" : "Curved",
+    "pocket" : "None",
+    "placket" : "New Basics",
+    "soldBy" : "ELCINCO INC",
+    "care" : "Machine-Wash",
+},
+"images" : [
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11543376/2020/3/3/0ca49258-67bc-4de6-97ae-0d82467340b51583216200086-DILLINGER-Men-Tshirts-9651583216197688-1.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11543376/2020/3/3/2c0e30f0-563d-4456-b111-1fb8ce6af9a41583216200012-DILLINGER-Men-Tshirts-9651583216197688-2.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11543376/2020/3/3/a0d515e9-6c90-4c41-b579-b1da08a6ecd11583216199948-DILLINGER-Men-Tshirts-9651583216197688-3.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11543376/2020/3/3/28ee9477-2c50-4cfe-9f29-7221d6f39abe1583216199874-DILLINGER-Men-Tshirts-9651583216197688-4.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11543376/2020/3/3/ffcbf4a4-e9c6-4d2a-8f33-781da240dd551583216199772-DILLINGER-Men-Tshirts-9651583216197688-5.jpg"}
+],
+"productType" : "tshirts"
+}
+
+{"url" : ""},
+    {"url" : ""},
+    {"url" : ""},
+    {"url" : ""}

@@ -1,0 +1,29 @@
+.bag-item-can{
+    font-size:13px;
+    font-weight:400;
+    color:black;
+    line-height:15px; 
+    width: 50px;
+}
+.bag-item-btn{
+   color: gray;
+   border:0px;
+   font-size:15px; 
+   font-weight:700;   
+   background-color:white;
+}
+
+.removebtn, .removebtn:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+}
+.wishbtn, .wishbtn:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+}

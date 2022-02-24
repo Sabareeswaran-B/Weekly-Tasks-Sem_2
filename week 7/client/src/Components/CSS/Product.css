@@ -1,0 +1,190 @@
+/* Product Page */
+
+.product-page
+{
+  margin-top: 30px;
+  margin-left: 15px;
+  line-height: 35px;
+}
+.product-page .head
+{
+  margin-left: 15px;
+}
+.product-page .head .division::after{
+  content :"  /  ";
+}
+
+.product-page .head a{
+  color: #393e46;
+  padding: 5px;
+  font-weight: lighter;
+}
+.product-page .head a:hover{
+  color: black;
+}
+.product-page .head .section::after{
+  content :"  >  ";
+}
+.product-page .shirtcard .card{
+  height: 450px;
+  width: 320px;
+  margin: 10px;
+  box-shadow: none;
+}
+.shirtcard .card:hover  {
+  height: 450px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.shirtcard .card img:hover {
+  transition: transform .2s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.shirtcard .card  img:hover {
+  transform: scale(1.04);
+}
+.product-page .shirt
+{
+  height: 100%;
+  width:100%;
+}
+
+.product-page .shirt:hover
+{
+    transform: scale(1.04);
+    cursor: -webkit-image-set(url(https://assets.myntassets.com/assets/images/retaillabs/2018/9/15/6d2dbca4-700f-4822-9759-5c92b82…-Zoom-icon-1x.png) 1x, url(https://assets.myntassets.com/assets/images/retaillabs/2018/9/15/cc4af777-3503-4e6b-8cbf-443b62b…-Zoom-icon-2x.png) 2x), crosshair;
+
+}
+.product-page .size25
+{
+  font-size: 25px;
+  color:grey;
+}
+.offer
+{
+  color: tomato;
+    font-size: 25px;
+}
+.size_chart
+{
+  padding-left: 25px;
+  color: #fb0091;
+}
+.size_btn
+{
+  display: inline;
+  border: 1px solid #535766;
+  color: #535766;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  margin: 10px;
+}
+.size_btn:hover
+{
+  font-weight: bold;
+  border: 1px solid black;
+
+}
+.size_btn:focus
+{
+  background-color: #535766;
+  font-weight: bold;
+  color: white;
+}
+.clrbtn, .clrbtn:hover{
+  background-color: white;
+  color: black;
+  border: none;
+}
+.addbag
+{
+  background-color: #fa5477;
+  border-radius: 4px;
+  color: white;
+  height: 55px;
+  width: 300px;
+  padding-top: 4px;
+}
+.addbag:hover
+{
+  opacity: 0.8;
+}
+.addbag p{
+  line-height: 2px;
+}
+.bagicon
+{
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 13px;
+  margin-right: 9px;
+  margin-bottom: 10px;
+  float: left;
+}
+.whishlist
+{
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 4px;
+  color: black;
+  height: 55px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  padding-top: 11px;
+  font-size: 16px;
+}
+.whishlist:hover
+{
+  border: 1px solid black;
+
+}
+.buton
+{
+  display: inline-flex;
+}
+.view
+{
+  border: 1px solid white;
+border-radius: 4px;
+}
+.view:hover
+{
+  border: 1px solid #D4D5D9;
+border-radius: 4px;
+}
+.pincode-code {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #D4D5D9;
+    -webkit-box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    box-shadow: 0px;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 160px;
+    outline: 0;
+    width: 250px;
+}
+.pincode-check {
+    position: relative;
+    left: -60px;
+    background-color: transparent;
+}
+
+.pincode-button {
+    outline: 0px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 0px;
+    color: #ff3e6c;
+    text-transform: capitalize;
+}

@@ -1,0 +1,63 @@
+
+.container-one{
+    background-color: lavender;
+    box-shadow: 3px 3px 3px 3px  rgb(161, 161, 161);
+    width: 100%;
+    height: 400px;
+    margin: 10px 0 10px 5px;
+    padding: 15px;
+}
+
+.container-two{
+    background-color: lavender;
+    box-shadow: 3px 3px 3px 3px  rgb(161, 161, 161);
+    width: 100%;
+    height: 150px;
+    margin: 10px 0 10px 5px;
+    padding: 15px;
+}
+
+.container-three{
+    background-color: lavender;
+    box-shadow: 3px 3px 3px 3px  rgb(161, 161, 161);
+    width: 100%;
+    height: 120px;
+    margin: 10px 0 10px 5px;
+    padding: 15px 70px 0 50px;
+}
+
+.card-one{
+    border : none;
+    height: 180px;
+    width: 150px;
+    margin: 0 0 50px 320px;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.grey{
+    color: gray;
+}
+
+.breakupbtn, .breakupbtn:hover{
+border:none;
+background-color:lavender;
+color:brown;
+float:right
+}
+
+.continuebtn{
+    width:300p; 
+    background-color:white;
+    color:grey;
+    margin-left:270px
+}
+
+
+ 

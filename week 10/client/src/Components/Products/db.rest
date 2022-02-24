@@ -1,0 +1,46 @@
+Post http://localhost:9000/product/create
+Content-Type: application/json
+
+{
+"productID" : "21SQCS01",
+"productName" : "Blue & Golden Quirky Print Saree",
+"brandName" : "Suta",
+"specialPrice" : 599,
+"MRP" : 1999,
+"offer" : "70%",
+"bestPrice" : 599,
+"size" : ["One"],
+"specs" : [
+    {
+        "name":"Print or Pattern Type", 
+        "value":"Geometric"
+    },{
+        "name":"Border", 
+        "value":"Solid"
+    },{
+        "name":"Occation", 
+        "value":"Traditional"
+    },{
+        "name":"Blouse Fabric", 
+        "value":"Silk Blend"
+    },{
+        "name":"Saree Fabric", 
+        "value":"Poly Chiffon"
+    },{
+        "name":"Blouse", 
+        "value":"Blouse Piece"
+    },{
+        "name":"Wash Care", 
+        "value":"Hand Clean"
+    }
+],
+"images" : [
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12564560/2020/10/11/982b4a0a-96f7-4871-8fce-1f2b83c350261602402688515SareemallSeaGreenPolyChiffonSolidEthnicPartywearSareewithMat1.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12564560/2020/10/11/3804537a-a60c-40c1-93eb-c17b5a57a4fa1602402688589SareemallSeaGreenPolyChiffonSolidEthnicPartywearSareewithMat2.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12564560/2020/10/11/08e85782-aff4-40db-8143-3c93c0215bf71602402688656SareemallSeaGreenPolyChiffonSolidEthnicPartywearSareewithMat3.jpg"},
+    {"url" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12564560/2020/10/11/d1640a0d-e5c0-4680-9401-f334e45fc0eb1602402688720SareemallSeaGreenPolyChiffonSolidEthnicPartywearSareewithMat4.jpg"}
+],
+"productType" : "sarees",
+"soldby":"SAREE MALL",
+"gender" : "women"
+}

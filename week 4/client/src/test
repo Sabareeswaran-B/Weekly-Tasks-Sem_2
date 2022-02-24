@@ -1,0 +1,69 @@
+/* import React, { useState, useEffect } from "react";
+import Slider from "react-slick"
+import axios from "axios";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './App.css';
+
+const url = "http://localhost:8000/findAll";
+
+function App() {
+  const [photos, setPhotos] = useState([]);
+
+  useEffect(() => {
+    getphotoWithAxios();
+  }, []);
+
+  const getphotoWithAxios = async () => {
+    const response = await axios.get(url);
+    setPhotos(response.data);
+  };
+  const settings = {
+    className: 'slider',
+    dots: true,
+    arrows: true,
+    infinite: true, 
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
+  console.log(photos)
+  return (
+    <div>
+        <h1>React Slick</h1>
+        <Slider {...settings}>
+        {photos.map((photos) => {
+            return(
+              <div>
+                <img width= "100%" src={photos.image} alt = "Images"/>
+              </div>
+            )
+          })}
+        </Slider>
+      </div>
+  );
+}
+
+export default App; 
+
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: 'block', background: 'red' }}
+//       onClick={onClick}
+//     />
+//   );
+// }
+
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: 'block', background: 'green' }}
+//       onClick={onClick}
+//     />
+//   );
+// } 
+*/
